@@ -26,22 +26,22 @@ export function Atividades() {
       <div className="flex flex-col">
         
         <div className="flex flex-col items-center bg-gray-100 h-screen p-4 gap-6 justify-evenly">
-          <div className="flex flex-col bg-white shadow-2xl rounded gap-4 w-full max-w-md">
+          <div className="flex flex-col bg-white shadow-2xl rounded gap-4 max-w-md items-center sm:w-full">
             <button
               onClick={routeChangeTuring}
-              className="flex flex-col sm:flex-row justify-between items-center border-red-700 border-dashed border-4 rounded-md px-4 py-6 hover:bg-red-700 text-xl sm:text-2xl font-bold hover:text-white gap-4"
+              className="flex flex-col sm:flex-row justify-between items-center border-red-700 border-dashed border-4 rounded-md px-4 py-6 hover:bg-red-700 text-xl sm:text-2xl font-bold hover:text-white gap-4 [@media (min-width:320px){ w-full }]  "
             >
-              <span className="text-center">Teste de Turing</span>
+              <span className="px-16">Teste de Turing</span>
               <img className="w-16 h-16 shrink-0" src="teste-de-turing.png" alt="Teste de Turing" />
             </button>
           </div>
 
-          <div className="flex flex-col bg-white shadow-2xl rounded gap-4 w-full max-w-md">
+          <div className="flex flex-col bg-white shadow-2xl rounded gap-4 max-w-md items-center sm:w-full">
             <button
               onClick={routeChangeImageRecognition}
-              className="flex flex-col sm:flex-row justify-between items-center border-red-700 border-dashed border-4 rounded-md px-4 py-6 hover:bg-red-700 text-xl sm:text-2xl font-bold hover:text-white gap-4"
+              className="flex flex-col sm:flex-row justify-between items-center border-red-700 border-dashed border-4 rounded-md px-4 py-6 hover:bg-red-700 text-xl sm:text-2xl font-bold hover:text-white gap-4  sm:w-full"
             >
-              <span className="text-center">Reconhecimento de Imagens</span>
+              <span className="">Reconhecimento de Imagens</span>
               <img
                 className="w-16 h-16 shrink-0"
                 src="reconhecimento-de-imagens.png"
@@ -50,10 +50,10 @@ export function Atividades() {
             </button>
           </div>
 
-          <div className="flex flex-col bg-white shadow-2xl rounded gap-4 w-full max-w-md">
+          <div className="flex flex-col bg-white shadow-2xl rounded gap-4 max-w-md items-center sm:w-full">
             <button
               onClick={routeChangeNetwork}
-              className="flex flex-col sm:flex-row justify-between items-center border-red-700 border-dashed border-4 rounded-md px-4 py-6 hover:bg-red-700 text-xl sm:text-2xl font-bold hover:text-white gap-4"
+              className="flex flex-col sm:flex-row justify-between items-center border-red-700 border-dashed border-4 rounded-md px-4 py-6 hover:bg-red-700 text-xl sm:text-2xl font-bold hover:text-white gap-4  sm:w-full"
             >
               <span className="text-center">Rede Adversária Generativa</span>
               <img className="w-16 h-16 shrink-0" src="rede-neural.png" alt="Rede Adversária Generativa" />
