@@ -1,7 +1,8 @@
 import { ArrowUpRight } from "lucide-react";
 import { Header } from "./header";
 import { useNavigate } from "react-router-dom";
-import logo from "/logo.svg";
+import logo from "/new-logo.svg";
+
 
 export function Inicio() {
   const navigate = useNavigate();
