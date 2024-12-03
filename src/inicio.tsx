@@ -25,11 +25,11 @@ export function Inicio() {
           </div>
 
           <p className="text-justify text-base sm:text-lg mb-6">
-            Nosso portal foi desenvolvido para auxiliar professores do ensino médio na aplicação de <strong>atividades desplugadas</strong> que promovem o <strong>pensamento computacional</strong>. Estas atividades são alinhadas com a competência (EM13CO10) do novo documento complementar à BNCC, que visa a compreensão dos fundamentos da <strong>Inteligência Artificial</strong>, sua comparação com a inteligência humana e a análise de suas potencialidades, riscos e limites.
+            A plataforma foi desenvolvida para auxiliar professores do ensino médio na aplicação de <strong>atividades desplugadas</strong> que promovem o <strong>pensamento computacional</strong>. Estas atividades são alinhadas com a competência (EM13CO10) do novo documento complementar à BNCC, que visa a compreensão dos fundamentos da <strong>Inteligência Artificial</strong>, sua comparação com a inteligência humana e a análise de suas potencialidades, riscos e limites.
           </p>
 
           <p className="text-justify text-base sm:text-lg mb-6">
-            No nosso portal, você terá acesso a uma variedade de atividades educativas que não requerem o uso de computadores, permitindo que os alunos desenvolvam habilidades importantes de forma lúdica e interativa. As atividades disponíveis são projetadas para serem facilmente integradas no currículo escolar e engajar os alunos em conceitos fundamentais da IA.
+             Você terá acesso a uma variedade de atividades educativas que não requerem o uso de computadores, permitindo que os alunos desenvolvam habilidades importantes de forma lúdica e interativa. As atividades disponíveis são projetadas para serem facilmente integradas no currículo escolar e engajar os alunos em conceitos fundamentais da IA.
           </p>
 
           <div className="flex flex-col text-base sm:text-lg mb-6">
